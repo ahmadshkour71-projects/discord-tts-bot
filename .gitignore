@@ -14,3 +14,8 @@ old/
 # Development files
 dev/
 data/
+package-lock.json
+.vs/VSWorkspaceState.json
+.vs/slnx.sqlite
+.vs/ProjectSettings.json
+.vs/discord-tts-bot/config/applicationhost.config
