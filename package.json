@@ -12,9 +12,6 @@
     "deploy": "node ./src/command-deployer.js",
     "start-sharded": "node ./src/sharded-client.js"
   },
-  "engines": {
-    "node": ">=16.6"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/moonstar-x/discord-tts-bot.git"
@@ -27,7 +24,7 @@
   "homepage": "https://github.com/moonstar-x/discord-tts-bot#readme",
   "dependencies": {
     "@discordjs/builders": "^0.11.0",
-    "@discordjs/opus": "^0.5.3",
+    "opusscript": "^0.0.8",
     "@discordjs/voice": "^0.7.5",
     "@greencoast/discord.js-extended": "^2.2.3",
     "@greencoast/logger": "^1.1.0",
